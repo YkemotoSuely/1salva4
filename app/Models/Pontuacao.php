@@ -6,5 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Pontuacao extends Model
 {
-    //
+    public function doador()
+    {
+        return $this->belongsTo(Doador::class);
+    }
 }
