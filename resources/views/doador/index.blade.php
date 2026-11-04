@@ -16,7 +16,7 @@
     <div class="bg-white rounded-2xl shadow-md p-8">
 
         <h2 class="text-3xl font-bold text-[#1F3D55]">
-            Olá, Suely! 👋
+            Olá, {{auth()->user()->name}}! 👋
         </h2>
 
         <p class="mt-2 text-gray-600">
@@ -31,8 +31,6 @@
 
 </main>
 
-<p class="text-gray-600">
-    Sua próxima doação pode salvar muitas vidas.</p>
 
 <div class="grid grid-cols-2 gap-6 mt-8">
 
@@ -55,7 +53,7 @@
         </p>
 
         <p class="mt-2 text-2xl font-bold text-[#1F3D55]">
-            20/08/2026
+            20/12/2026
         </p>
 
     </div>

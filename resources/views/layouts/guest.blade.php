@@ -47,7 +47,8 @@
             <!-- Centro da página -->
             <div class="flex-grow flex flex-col justify-center items-center">
 
-                <img src="{{ asset('img/logo-hemoprev.png') }}" class="w-96" alt="Logo">
+                <img src="{{ asset('img/logo-hemoprev.png') }}" alt="Logo 1 Salva 4"
+                  style="width: 350px; max-width: 100%; height: auto;">
 
                 <p class="mt-10 text-center text-gray-600 leading-8 max-w-md">
                     Conectando doadores e hemocentros

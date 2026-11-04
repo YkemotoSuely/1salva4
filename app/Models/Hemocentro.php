@@ -15,6 +15,8 @@ class Hemocentro extends Model
     'estado',
     'cep',
     'telefone',
+    'latitude',
+    'longitude',
     ];
 
     //Um hemocentro --> várias doações
