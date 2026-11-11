@@ -20,11 +20,8 @@ return new class extends Migration
 
     public function down(): void
     {
-        if (Schema::hasColumn('componentes', 'codigo_identificacao')) {
-            Schema::table('componentes', function (Blueprint $table) {
-                $table->dropUnique(['codigo_identificacao']);
-                $table->dropColumn('codigo_identificacao');
-            });
-        }
+    // Esta migration é corretiva.
+    // Não remove a coluna porque ela também é gerenciada
+    // pela migration add_codigo_identificacao_to_componentes_table.
     }
 };
