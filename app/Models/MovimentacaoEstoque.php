@@ -15,6 +15,7 @@ class MovimentacaoEstoque extends Model
         'componente_id',
         'usuario_id',
         'tipo_movimentacao',
+        'motivo_saida',
         'transferencia_id',
         'data_movimentacao',
         'observacao',
